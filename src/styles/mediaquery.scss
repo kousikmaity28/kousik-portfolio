@@ -125,18 +125,14 @@
         }
       }
     }
-  
-    #work {
-      padding: 0rem $p_zero;
-      > section {
-        > article {
-          height: 25rem;
-        }
-        .workItem {
-          height: 25rem;
+      #work{
+        padding: 0 0;
+        height: 65vh;
+        >section{
+          height: 80%;
         }
       }
-    }
+
   
     #services {
       padding: $p_sm_inverse;
