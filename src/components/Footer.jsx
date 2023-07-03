@@ -2,7 +2,6 @@ import React from "react";
 import {
   AiFillGithub,
   AiFillLinkedin,
-//   AiFillYoutube,
   AiOutlineArrowUp,
 } from "react-icons/ai";
 import flogo from "../assets/flogo.jpg"
@@ -24,9 +23,6 @@ const Footer = () => {
         <h2>Social Media</h2>
 
         <article>
-          {/* <a href="https://youtube.com/6packprogrammer" target={"blank"}>
-            <AiFillYoutube />
-          </a> */}
           <a href="https://www.linkedin.com/in/kousik-maity-458471219/" target={"blank"}>
             <AiFillLinkedin />
           </a>

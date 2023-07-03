@@ -1,25 +1,9 @@
-// import React, { useRef } from "react";
 import {  motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../assets/logo.jpg";
 
-const Home = ({ ratio }) => {
-//   const clientCount = useRef(null);
-//   const projectCount = useRef(null);
-
-//   const animationClientsCount = () => {
-//     animate(0, 100, {
-//       duration: 1,
-//       onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
-//     });
-//   };
-//   const animationProjectsCount = () => {
-//     animate(0, 500, {
-//       duration: 1,
-//       onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
-//     });
-//   };
+const Home = () => {
 
   const animations = {
     h1: {
@@ -67,41 +51,6 @@ const Home = ({ ratio }) => {
               Projects <BsArrowUpRight />
             </a>
           </div>
-
-          {/* <article>
-            <p>
-              +
-              {ratio < 2 && (
-                <motion.span
-                  whileInView={animationClientsCount}
-                  ref={clientCount}
-                ></motion.span>
-              )}
-            </p>
-            <span>Clients Worldwide</span>
-          </article> */}
-
-          {/* <aside>
-            <article>
-              <p>
-                +
-                {ratio < 2 && (
-                  <motion.span
-                    ref={projectCount}
-                    whileInView={animationProjectsCount}
-                  >
-                    500
-                  </motion.span>
-                )}
-              </p>
-              <span>Projects Done</span>
-            </article>
-
-            <article data-special>
-              <p>Contact</p>
-              <span>kmaitykousik77@gmail.com</span>
-            </article>
-          </aside> */}
         </div>
       </section>
       <section>
