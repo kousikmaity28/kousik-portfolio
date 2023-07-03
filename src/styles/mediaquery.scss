@@ -311,6 +311,7 @@
     }
   
     #services {
+      height: 100vh;
       > section {
         margin: 3rem 0;
         grid-template-columns: repeat(2, 1fr);
