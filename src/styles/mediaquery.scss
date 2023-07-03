@@ -114,8 +114,9 @@
           padding-left: $p_sm;
           > div {
             > div {
-              gap: 2rem;
+              gap: 1rem;
               width: 100%;
+              margin: 3rem 0;
             }
             aside {
               flex-direction: column;
@@ -126,7 +127,7 @@
     }
   
     #work {
-      padding: 8rem $p_zero;
+      padding: 0rem $p_zero;
       > section {
         > article {
           height: 25rem;
